@@ -1,0 +1,442 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0f10;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  margin: 0 15vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  width: 100%;
+}
+header img {
+  width: 25px;
+  height: 25px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 2rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+nav ul > li {
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+nav ul li > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav button {
+  background: #1e1e21;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 40px;
+  color: #ffffff;
+}
+
+/* Main section designing */
+
+main {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 1.5rem;
+  /* gap: 5rem; */
+}
+
+main > img {
+  width: 15rem;
+  position: relative;
+  bottom: 14rem;
+  left: 4rem;
+}
+
+.left-side {
+  margin-left: 10rem;
+}
+
+.left-side > img {
+  margin-left: 2rem;
+  width: 22rem;
+}
+
+.left-side h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.left-side h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.left-side p {
+  width: 60%;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #bdc0c2;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.add-to-bag {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  width: fit-content;
+  gap: 20px;
+  background-color: #1e1e21;
+  border-radius: 8px;
+}
+
+.add-to-bag > img {
+  width: 16px;
+}
+
+.add-to-bag > p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 50px;
+  position: relative;
+  top: -50px;
+  margin-bottom: 2.8rem;
+}
+
+.social-media-links img {
+  width: 6rem;
+}
+
+/* Designing specs section */
+
+.specifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.specifications > img {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.specifications-list {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+  gap: 3rem;
+}
+
+.specifications-list > img {
+  width: 15rem;
+}
+
+.specification-list-items div {
+  margin-bottom: 1.2rem;
+}
+
+.specification-list-items div img {
+  scale: 0.8;
+  margin-bottom: 0.2rem;
+}
+
+.specification-list-items div p {
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+}
+
+.specification-list-items div p:last-child {
+  color: #bdc0c2;
+  font-size: 10px;
+  margin-top: 5px;
+  width: 70%;
+}
+
+.specification-list-items div:first-child,
+.specification-list-items div:last-child {
+  margin-left: 30px;
+}
+
+/* case section designing */
+
+.case {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.case > img {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.case-specs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.case-specs > img {
+  scale: 0.8;
+}
+
+.case-description {
+  width: 20%;
+}
+
+.case-description p {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #bdc0c2;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.more-info-btn {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  width: fit-content;
+  gap: 20px;
+  background-color: #1e1e21;
+  border-radius: 8px;
+}
+
+.more-info-btn p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.buyNowCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem 0;
+  margin-top: 5rem;
+  background-color: #1e1e21;
+  border-radius: 12px;
+}
+
+.buyNowCard > img {
+  scale: 0.8;
+}
+
+.card-description {
+  width: 30%;
+}
+
+.card-description h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card-description p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.buyNowCta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #000;
+  width: fit-content;
+}
+
+.buyNowCta p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.buyNowCard img {
+  scale: 0.8;
+}
+
+.choose-style {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choose-style > img {
+  width: 10rem;
+  margin-bottom: 6rem;
+}
+
+.product-list-items {
+  margin: 0 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  padding-left: 50px;
+}
+
+
+.product-card {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background: #181a1b;
+  border-radius: 8px;
+}
+
+
+.product-card > img {
+  width: 75px;
+  height: 100px;
+  position: absolute;
+  z-index: 100;
+  top: -40px;
+  left: 28px;
+
+}
+
+
+.product-info {
+  position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+
+.product-info div {
+  background: #0a0a0b;
+  border-radius: 8px;
+  padding: 2px 6px;
+}
+
+.product-info p {
+  font-size: 12px;
+}
+
+
+.product-info div img {
+  width: 13px;
+  height: 13px;
+}
+
+
+footer{
+  margin: 100px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+
+.footer-logo{
+  scale: 0.8;
+}
+
+
+footer > ul li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+footer > ul li a{
+  font-size: 12px;
+  color: #BDC0C2;
+  text-decoration: none;
+}
+
+footer > ul li:first-child a{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+footer > ul li:first-child{
+  margin-bottom: 10px;
+}
+
+.footer-subscription{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-subscription div:first-child{
+  background: #181A1B;
+border-radius: 8px;
+padding: 5px 10px;
+display: flex;
+}
+
+.footer-subscription div:first-child input{
+  border: none;
+  background-color: transparent;
+}
+
+.subscribe-button{
+  background: #0A0A0B;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.subscribe-button img{
+  scale: 0.8;
+}
+
+.subscribe-button p{
+  font-size: 12px;
+}
+
+.footer-subscription div:last-child img{
+  margin-right: 10px;
+  scale: 0.8;
+}
+
+.arrow-up{
+  position: absolute;
+  right: -160px;
+  scale: 0.8;
+}
