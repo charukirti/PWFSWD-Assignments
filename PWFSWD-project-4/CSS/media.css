@@ -1,0 +1,42 @@
+@media screen and (max-width:768px) {
+    .hmbgr img {
+      display: block;
+    }
+  
+    nav ul{
+      display: none;
+    }
+  
+    img[alt="pc-image"] {
+        width: 10rem;
+      }
+
+      main {
+        display: flex;
+        max-width: 100vw;
+        flex-direction: column;
+        /* align-items: center; */
+      }
+
+      .first-line {
+        display: block;
+      }
+  
+    .projects{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .hero-left{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hello{
+      display: block;
+    }
+  
+  }
